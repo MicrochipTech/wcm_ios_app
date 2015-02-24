@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Application Testing</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>These settings are provided for testing purposes and will not be available in production releases.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Admob Banners</string>
+			<key>Key</key>
+			<string>venue_admob_enabled</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Simulate Nets Game</string>
+			<key>Key</key>
+			<string>NSUserDefaultsKeySimulateNetsLiveHomeGame</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Simulate In Arena</string>
+			<key>Key</key>
+			<string>NSUserDefaultsKeySimulateInArena</string>
+			<key>DefaultValue</key>
+			<string>NO</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Stadium Vision Mobile</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>FooterText</key>
+			<string>The local sender provides and embedded video feed for testing purposes. Disabling the local sender requires an application restart.</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Local Sender</string>
+			<key>Key</key>
+			<string>NSUserDefaultsKeyCiscoLocalSenderEnabled</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Debug</string>
+	<key>Title</key>
+	<string>Debug</string>
+</dict>
+</plist>
